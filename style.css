@@ -1,0 +1,191 @@
+body {
+    background-color: #202124;
+    min-width: 400px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+}
+
+.Google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48.5vh; /* Adjust this value based on your requirements */
+}
+
+.Google img {
+    max-width: 200%;
+    max-height: 200%;
+}
+
+.search{
+    position: absolute;
+    left: 487px; /* Adjust this value to position the icon as desired */
+    top: 38.75%; /* Adjust this value to vertically center the icon */
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.search img{
+    width: 25px; /* Adjust this value to change the width of the icon */
+    height: auto;
+}
+
+.lens{
+    position: absolute;
+    left: 1013.5px; /* Adjust this value to position the icon as desired */
+    top: 38.6%; /* Adjust this value to vertically center the icon */
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.lens img{
+    width: 33.5px; /* Adjust this value to change the width of the icon */
+    height: auto;
+}
+
+.border {
+    display: flex;
+    z-index: 1;
+    min-height: 45.5px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 635.5px;
+    width: auto;
+    max-width: 584px;
+    position: relative; /* Enable absolute positioning */
+    bottom: 105px; /* Position the border at the bottom */
+    left: 19.2%; /* Move the border horizontally to the center */
+    transform: translateX(-50%); /* Adjust the center position */
+  }
+
+  .border input[type="text"] {
+    border: none; /* Remove the input border */
+    background: transparent; /* Make the input background transparent */
+    outline: none; /* Remove the input focus outline */
+    width: 249%; /* Make the input occupy the full width */
+    height: 100%; /* Make the input occupy the full height */
+    padding: 0 20px; /* Add padding to the input for some spacing */
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #bdc1c6; /* Set the input text color */
+    position: relative; /* Enable absolute positioning */
+    bottom: 1.3px; /* Position the border at the bottom */
+    left: 150%; /* Move the border horizontally to the center */
+    transform: translateX(-50%); /* Adjust the center position */
+}
+
+.border input[type="submit"] {
+    display: none; /* Hide the submit button */
+}
+
+.Gma{
+    font-family: arial,sans-serif;
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    top: -388px;
+    left: 86.55%;
+    transform: translateX(-50%);
+}
+
+.imma{
+    font-family: arial,sans-serif;
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    top: -404.5px;
+    left: 89.75%;
+    transform: translateX(-50%);
+}
+
+.gapp{
+    fill: rgb(255, 255, 255,.87); /* Change the color to red */
+    width: 24.3px; /* Change the width to 50 pixels */
+    height: 24.3px;
+    position: relative;
+    top: -425px;
+    left: 95.15%;
+    transform: translate(-50%);
+}
+
+.p2{
+    background-size: 32px 32px;
+    border: 0;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    position: relative;
+    left:98.3%;
+    top: -457px;
+    transform: translate(-50%);
+}
+ 
+.gs{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    top:-180px;
+
+}
+
+#lang{
+    padding: 0 3px;
+    color: #bdc1c6;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: small;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: -170px;
+}
+
+#lang a{
+    padding: 0 3px;
+    color: #8ab4f8;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 13.5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 1px;
+}
+
+#Coun a{
+    padding: 15px 30px;
+    text-decoration: none;
+    border-top: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: arial,sans-serif;
+    position: relative;
+    bottom: -90px;
+}
